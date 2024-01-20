@@ -4,6 +4,54 @@ body {
     background-color: #FFFFFF;
 }
 
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.hidden-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+}
+
 .logo-nav-head {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -12,6 +60,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 76px;
 }
 
 .logo-nav-head-span {
@@ -68,13 +119,17 @@ body {
 }
 
 .button {
-    background: #4D5AE5;
+    background: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    min-height: 56px;
     cursor: pointer;
 }
 
